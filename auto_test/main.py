@@ -34,14 +34,14 @@ if __name__ == "__main__":
     fp.close()
     subject = 'DMS3_WEB_UI自动化测试'
     # file = os.path.dirname(os.path.dirname(os.path.realpath(__file__))) + '/report/20170719-095357.html'
-    file = r"E:\python_web\mail\report\wc.html"
-    fn = r'WebAutoTest.html'
-    MAIL_DRIVER = 'smtp'
-    MAIL_HOST = 'smtp.263.net'
-    MAIL_PORT = '25'
-    MAIL_USERNAME = r'qa-report@daojia.com.cn'
-    MAIL_PASSWORD = 'Djia2017'
-    MAIL_FROM_ADDRESS = r'qa.list@daojia.com.cn'
+    file = r"wc.html"
+    fn = r''
+    MAIL_DRIVER = ''
+    MAIL_HOST = ''
+    MAIL_PORT = ''
+    MAIL_USERNAME = r''
+    MAIL_PASSWORD = ''
+    MAIL_FROM_ADDRESS = r''
     file_object = open(file)
     content = file_object.read()
     soup = BeautifulSoup(content,'html.parser')
@@ -56,10 +56,10 @@ if __name__ == "__main__":
         <p>详情请见附件(建议下载HTML后查看)</p>
         %s
         </body>
-        </html>"""%(localIP,'ghj','ghj123',r'\\GUOHONGJIE\mail',ul)
+        </html>"""%(localIP,'','',r'\\GUOHONGJIE\mail',ul)
     file_object.close()
-    zipfile = r'E:\python_web\mail\png'
-    zipn = r'E:\python_web\mail\result.zip'
+    zipfile = r''
+    zipn = r''
     addfile(zipn,zipfile)
     mail = AutoSendMail(MAIL_USERNAME,MAIL_PASSWORD,MAIL_FROM_ADDRESS,file,fn,zipn,'result.zip')
     mail(MAIL_HOST, MAIL_PORT, html)
