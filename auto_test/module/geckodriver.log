@@ -1,0 +1,13 @@
+1502180643246	geckodriver	INFO	geckodriver 0.18.0
+1502180643258	geckodriver	INFO	Listening on 127.0.0.1:51106
+1502180643332	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502180648112	Marionette	INFO	Listening on port 51110
+1502180648489	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502180747487	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1502183335444	Marionette	INFO	Ceased listening

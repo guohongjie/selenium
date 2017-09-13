@@ -1,0 +1,107 @@
+2017-09-12 14:02:31,891 - CaseLogin - INFO - ----------********测试登录界面********----------
+2017-09-12 14:02:31,891 - CaseLogin - INFO - 已获取dict_env元素,并进行遍历：[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-12 14:02:31,891 - CaseLogin - INFO - 打开登录窗口
+http://192.168.98.22:8013/sherpa-dms3/login
+Sherpa's Login
+2017-09-12 14:02:31,891 - CaseLogin - INFO - 调用打开页面组件
+2017-09-12 14:02:34,145 - CaseLogin - INFO - 验证页面元素
+2017-09-12 14:02:53,515 - CaseLogin - INFO - 空密码提交验证
+2017-09-12 14:02:57,665 - CaseLogin - INFO - 调用用户名输入组件，输入错误用户:test_error
+2017-09-12 14:02:59,940 - CaseLogin - INFO - 调用密码输入组件，输入错误用户密码:test_error
+2017-09-12 14:03:02,204 - CaseLogin - INFO - 调用点击登录按钮组件
+2017-09-12 14:03:05,299 - CaseLogin - INFO - 调用用户名输入组件:yumi
+2017-09-12 14:03:07,464 - CaseLogin - INFO - 调用密码输入组件:111111
+2017-09-12 14:03:09,618 - CaseLogin - INFO - 调用点击登录按钮组件,进入main界面
+2017-09-12 14:03:16,736 - CaseLogin - INFO - 登录模块测试完毕
+2017-09-12 14:03:19,904 - CaseMain - INFO - ----------********登录主页测试********----------
+2017-09-12 14:03:19,904 - CaseMain - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-12 14:03:19,904 - CaseMain - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-12 14:03:21,943 - CaseMain - INFO - 调用用户名输入组件:yumi
+2017-09-12 14:03:24,181 - CaseMain - INFO - 调用密码输入组件:111111
+2017-09-12 14:03:27,434 - CaseMain - INFO - 调用点击登录按钮组件,进入main界面
+2017-09-12 14:03:29,694 - CaseMain - INFO - 点击OK按钮，取消CALL CENTER工具提示框
+2017-09-12 14:03:30,861 - CaseMain - INFO - 显示菜单模块栏
+2017-09-12 14:03:59,621 - CaseMain - INFO - 遍历打开功能模块成功
+2017-09-12 14:04:02,470 - CaseOrder - INFO - ----------********新订单模块下单测试********----------
+2017-09-12 14:04:02,470 - CaseOrder - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-12 14:04:02,470 - CaseOrder - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-12 14:04:02,470 - CaseOrder - INFO - 调用用户名、密码输入组件:yumi、111111
+2017-09-12 14:04:06,522 - CaseOrder - INFO - 已获取dict_newrder属性:[{u'Rest_name': u'\u84dd\u86d9', u'TelPhone_Num': u'1231231', u'Branch': u'\u671b\u4eac\u4e1c\u5e97', u'TelPhone_new': u'123456', u'Item': u'\u84dd\u86d9\u7ecf\u5178\u6c49\u5821'}]
+2017-09-12 14:04:06,522 - CaseOrder - INFO - 执行JS显示菜单功能栏
+2017-09-12 14:04:06,536 - CaseOrder - INFO - 打开新订单功能模块
+2017-09-12 14:04:09,273 - CaseOrder - INFO - 执行JS隐藏菜单功能栏
+2017-09-12 14:04:09,282 - CaseOrder - INFO - 进入新订单模块，切入iframe内
+2017-09-12 14:04:12,404 - CaseOrder - INFO - 输入订单业务用户电话:1231231
+2017-09-12 14:04:14,721 - CaseOrder - INFO - 点击搜索按钮，如果之前输入的电话不存在，则输入新电话123456
+2017-09-12 14:04:53,039 - CaseOrder - INFO - 验证用户是否存在未收款项:--- 用户未收款金额已选择随订单支付
+2017-09-12 14:04:53,040 - CaseOrder - INFO - 输入餐厅名称:蓝蛙
+2017-09-12 14:04:57,473 - CaseOrder - INFO - 选择餐厅，展开餐厅分组
+2017-09-12 14:05:32,848 - CaseOrder - INFO - 选择餐厅分店:望京东店,并点击ORDER 按钮
+2017-09-12 14:05:38,286 - CaseOrder - INFO - 如果点击ORDER按钮后，系统产生订单警告提示，则点击继续按钮
+2017-09-12 14:06:13,308 - CaseOrder - INFO - 如果点击ORDER按钮后，系统产生订单延时提示，则点击保存后继续操作
+2017-09-12 14:06:44,372 - CaseOrder - INFO - 输入菜品信息:蓝蛙经典汉堡，点击查询按钮
+2017-09-12 14:06:51,665 - CaseOrder - INFO - 选择菜品后，点击VIEW ORDER 按钮，并进入结算界面
+ 点击 SAVE按钮、SEND_TO_RESTAURANT按钮
+2017-09-12 14:08:01,000 - CaseOrder - INFO - 完成订单，进入ORDER LIST 界面，等待5S后，写入订单号到order_id.txt文件
+2017-09-12 14:08:02,117 - CaseOrder - INFO - 完成订单测试，业务订单号:2170912140534750
+ 关闭当前新订单界面
+2017-09-12 14:08:10,355 - CaseOrder - INFO - 新订单模块测试完毕
+2017-09-12 14:08:13,645 - CaseOrderList - INFO - ----------********登录订单列表模块********----------
+2017-09-12 14:08:13,645 - CaseOrderList - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-12 14:08:13,647 - CaseOrderList - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-12 14:08:13,647 - CaseOrderList - INFO - 调用用户名、密码输入组件:yumi、111111
+2017-09-12 14:08:17,634 - CaseOrderList - INFO - 显示功能模块菜单栏
+2017-09-12 14:08:17,642 - CaseOrderList - INFO - 打开OrderList功能模块
+2017-09-12 14:08:20,736 - CaseOrderList - INFO - 隐藏功能模块菜单栏
+2017-09-12 14:08:20,903 - CaseOrderList - INFO - 进入Iframe，进入Inner HTML
+2017-09-12 14:08:24,023 - CaseOrderList - INFO - 选择查询起止时间段
+2017-09-12 14:08:58,553 - CaseOrderList - INFO - 查询当日订单总量{'Un-finished Complain Order': u'0', 'Locked Number': u'1', 'Delay Order': u'2', 'Dispath Number': u'0', 'Need send to Restaurant Number': u'0', 'My Order': u'3'}
+2017-09-12 14:09:43,505 - CaseOrderList - INFO - App Order 订单总量：[u'Number : 1', u'Rest. Total : 1', u'Order Total : 97']
+2017-09-12 14:09:43,505 - CaseOrderList - INFO - Un-Approved Web Order 订单总量：[u'Number : 10', u'Rest. Total : 7', u'Order Total : 844']
+2017-09-12 14:09:43,506 - CaseOrderList - INFO - Phone Order 订单总量：[u'Number : 3', u'Rest. Total : 3', u'Order Total : 220']
+2017-09-12 14:09:43,506 - CaseOrderList - INFO - Web Order 订单总量：[u'Number : 6', u'Rest. Total : 3', u'Order Total : 527']
+2017-09-12 14:09:43,506 - CaseOrderList - INFO - 操作选择框类型，输入错误的订单号
+2017-09-12 14:09:49,729 - CaseOrderList - INFO - 点击GO查询按钮，查询订单数据
+2017-09-12 14:09:50,953 - CaseOrderList - INFO - 点击Query (Not Finished)按钮
+2017-09-12 14:10:04,059 - CaseOrderList - INFO - 输入正确的订单编号:2170912140534750，并选择该订单
+2017-09-12 14:10:04,059 - CaseOrderList - INFO - 点击edit&view 按钮，进行订单修改
+2017-09-12 14:10:17,887 - CaseOrderList - INFO - 点击editAddressInfo 按钮
+2017-09-12 14:10:40,368 - CaseOrderList - INFO - 点击修改分餐厅配置信息
+2017-09-12 14:10:44,815 - CaseOrderList - INFO - 进入餐厅营业时间变更选项
+2017-09-12 14:10:59,469 - CaseOrderList - INFO - 餐厅营业时间变更选项操作完成，返回修改界面
+2017-09-12 14:11:11,305 - CaseOrderList - INFO - 点击解锁订单，系统提示:确定解除锁定？
+2017-09-12 14:11:11,305 - CaseOrderList - INFO - 已点击OK 按钮，系统返回解锁返回值:订单解锁成功。
+2017-09-12 14:11:22,723 - CaseOrderList - INFO - 点击 EDIT ORDER INFOMATION 按钮,跳转结算界面
+2017-09-12 14:11:30,426 - CaseOrderList - INFO - 点击 Unpayment 按钮,弹出 未收款金额 框，输入未收款金额：1元，点击 OK 按钮
+2017-09-12 14:11:38,648 - CaseOrderList - INFO - 点击 SAVE 按钮
+2017-09-12 14:11:38,720 - CaseOrderList - INFO - 如果提示商家无法接单，则系统提示:None
+2017-09-12 14:12:08,789 - CaseOrderList - INFO - 如果提示订单重复，则系统提示:None
+2017-09-12 14:12:18,986 - CaseOrderList - INFO - 点击 OK 按钮
+2017-09-12 14:12:18,986 - CaseOrderList - INFO - 点击 处理完成 按钮，并输入原因为：测试
+2017-09-12 14:12:38,180 - CaseOrderList - INFO - 点击 OK 按钮，系统提示:订单解锁成功。
+2017-09-12 14:12:44,401 - CaseOrderList - INFO - 关闭提示窗口，并返回订单列表主界面发送餐厅成功，测试完毕
+2017-09-12 14:12:47,608 - CaseCallCenterQC - INFO - ----------********登录 Call Center QC 模块********----------
+2017-09-12 14:12:47,608 - CaseCallCenterQC - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-12 14:12:47,609 - CaseCallCenterQC - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-12 14:12:47,609 - CaseCallCenterQC - INFO - 调用用户名、密码输入组件:yumi、111111
+2017-09-12 14:12:51,710 - CaseCallCenterQC - INFO - 显示功能模块菜单栏
+2017-09-12 14:12:51,717 - CaseCallCenterQC - INFO - 打开Call Center QC 功能模块
+2017-09-12 14:12:54,914 - CaseCallCenterQC - INFO - 隐藏功能模块菜单栏
+2017-09-12 14:12:54,921 - CaseCallCenterQC - INFO - 进入Iframe，进入Inner HTML
+2017-09-12 14:13:29,516 - CaseCallCenterQC - INFO - 获取数据报表字段名称[u'CSR ', u'Delay Order ', u'\u672asend to Restaurant ', u'\u672a\u89e3\u9501\u8ba2\u5355 ', u'\u672a\u5199\u6295\u8bc9\u7684\u8ba2\u5355 ', u'\u9700\u8ddf\u8fdb\u7684\u672a\u6536\u6b3e ']
+2017-09-12 14:13:59,648 - CaseCallCenterQC - INFO - 获取需跟进订单总量页面数据:
+{u'\u672a\u5199\u6295\u8bc9\u7684\u8ba2\u5355 ': u'0', u'Delay Order ': u'0', u'\u672asend to Restaurant ': u'0', u'CSR ': u'angela', u'\u9700\u8ddf\u8fdb\u7684\u672a\u6536\u6b3e ': u'0', u'\u672a\u89e3\u9501\u8ba2\u5355 ': u'0'}
+------------
+2017-09-12 14:13:59,650 - CaseCallCenterQC - INFO - 获取需跟进订单总量页面数据:
+{u'\u672a\u5199\u6295\u8bc9\u7684\u8ba2\u5355 ': u'0', u'Delay Order ': u'2', u'\u672asend to Restaurant ': u'0', u'CSR ': u'yumi', u'\u9700\u8ddf\u8fdb\u7684\u672a\u6536\u6b3e ': u'1', u'\u672a\u89e3\u9501\u8ba2\u5355 ': u'1'}
+------------
+2017-09-12 14:15:05,309 - CaseCallCenterQC - INFO - 获取处理订单总表数据:页面存在数据，待以后进行抓取
+2017-09-12 14:16:10,924 - CaseCallCenterQC - INFO - 获取PM表数据:页面存在数据，待以后进行抓取

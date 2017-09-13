@@ -1,0 +1,35 @@
+2017-09-13 16:00:03,767 - CaseLogin - INFO - ----------********测试登录界面********----------
+2017-09-13 16:00:03,767 - CaseLogin - INFO - 已获取dict_env元素,并进行遍历：[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-13 16:00:03,767 - CaseLogin - INFO - 打开登录窗口
+http://192.168.98.22:8013/sherpa-dms3/login
+Sherpa's Login
+2017-09-13 16:00:03,767 - CaseLogin - INFO - 调用打开页面组件
+2017-09-13 16:00:05,490 - CaseLogin - INFO - 验证页面元素
+2017-09-13 16:00:24,792 - CaseLogin - INFO - 空密码提交验证
+2017-09-13 16:00:30,091 - CaseMain - INFO - ----------********登录主页测试********----------
+2017-09-13 16:00:30,092 - CaseMain - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-13 16:00:30,092 - CaseMain - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-13 16:00:32,535 - CaseMain - INFO - 调用用户名输入组件:yumi
+2017-09-13 16:00:34,823 - CaseMain - INFO - 调用密码输入组件:111111
+2017-09-13 16:00:38,066 - CaseMain - INFO - 调用点击登录按钮组件,进入main界面
+2017-09-13 16:00:40,259 - CaseMain - INFO - 点击OK按钮，取消CALL CENTER工具提示框
+2017-09-13 16:01:15,963 - CaseOrder - INFO - ----------********新订单模块下单测试********----------
+2017-09-13 16:01:15,963 - CaseOrder - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-13 16:01:15,963 - CaseOrder - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-13 16:01:15,963 - CaseOrder - INFO - 调用用户名、密码输入组件:yumi、111111
+2017-09-13 16:01:52,819 - CaseOrderList - INFO - ----------********登录订单列表模块********----------
+2017-09-13 16:01:52,819 - CaseOrderList - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-13 16:01:52,819 - CaseOrderList - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-13 16:01:52,819 - CaseOrderList - INFO - 调用用户名、密码输入组件:yumi、111111
+2017-09-13 16:02:29,480 - CaseCallCenterQC - INFO - ----------********登录 Call Center QC 模块********----------
+2017-09-13 16:02:29,480 - CaseCallCenterQC - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-13 16:02:29,480 - CaseCallCenterQC - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-13 16:02:29,480 - CaseCallCenterQC - INFO - 调用用户名、密码输入组件:yumi、111111

@@ -1,0 +1,15 @@
+2017-09-12 13:44:49,091 - CaseOrder - INFO - ----------********新订单模块下单测试********----------
+2017-09-12 13:44:49,092 - CaseOrder - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-12 13:44:49,092 - CaseOrder - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-12 13:44:49,092 - CaseOrder - INFO - 调用用户名、密码输入组件:yumi、111111
+2017-09-12 13:44:53,763 - CaseOrder - INFO - 已获取dict_newrder属性:[{u'Rest_name': u'\u84dd\u86d9', u'TelPhone_Num': u'1231231', u'Branch': u'\u671b\u4eac\u4e1c\u5e97', u'TelPhone_new': u'123456', u'Item': u'\u84dd\u86d9\u7ecf\u5178\u6c49\u5821'}]
+2017-09-12 13:44:53,765 - CaseOrder - INFO - 执行JS显示菜单功能栏
+2017-09-12 13:44:53,772 - CaseOrder - INFO - 打开新订单功能模块
+2017-09-12 13:44:55,661 - CaseOrder - INFO - 执行JS隐藏菜单功能栏
+2017-09-12 13:44:55,671 - CaseOrder - INFO - 进入新订单模块，切入iframe内
+2017-09-12 13:44:58,772 - CaseOrder - INFO - 输入订单业务用户电话:1231231
+2017-09-12 13:45:01,042 - CaseOrder - INFO - 点击搜索按钮，如果之前输入的电话不存在，则输入新电话123456
+2017-09-12 13:45:36,119 - CaseOrder - INFO - 输入餐厅名称:蓝蛙
+2017-09-12 13:45:40,414 - CaseOrder - INFO - 选择餐厅，展开餐厅分组

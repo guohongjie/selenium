@@ -1,0 +1,12 @@
+2017-09-12 10:31:17,714 - CaseCallCenterQC - INFO - ----------********登录 Call Center QC 模块********----------
+2017-09-12 10:31:17,714 - CaseCallCenterQC - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-12 10:31:17,716 - CaseCallCenterQC - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-12 10:31:17,716 - CaseCallCenterQC - INFO - 调用用户名、密码输入组件:yumi、111111
+2017-09-12 10:31:24,288 - CaseCallCenterQC - INFO - 显示功能模块菜单栏
+2017-09-12 10:31:24,299 - CaseCallCenterQC - INFO - 打开Call Center QC 功能模块
+2017-09-12 10:31:26,752 - CaseCallCenterQC - INFO - 隐藏功能模块菜单栏
+2017-09-12 10:31:26,763 - CaseCallCenterQC - INFO - 进入Iframe，进入Inner HTML
+2017-09-12 10:32:01,365 - CaseCallCenterQC - INFO - 获取数据报表字段名称[u'CSR ', u'Delay Order ', u'\u672asend to Restaurant ', u'\u672a\u89e3\u9501\u8ba2\u5355 ', u'\u672a\u5199\u6295\u8bc9\u7684\u8ba2\u5355 ', u'\u9700\u8ddf\u8fdb\u7684\u672a\u6536\u6b3e ']
+2017-09-12 10:32:17,102 - CaseCallCenterQC - INFO - 获取需跟进订单总量页面数据:没有匹配数据

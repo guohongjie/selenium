@@ -1,0 +1,91 @@
+2017-09-12 10:15:39,265 - CaseLogin - INFO - ----------********测试登录界面********----------
+2017-09-12 10:15:39,266 - CaseLogin - INFO - 已获取dict_env元素,并进行遍历：[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-12 10:15:39,266 - CaseLogin - INFO - 打开登录窗口
+http://192.168.98.22:8013/sherpa-dms3/login
+Sherpa's Login
+2017-09-12 10:15:39,266 - CaseLogin - INFO - 调用打开页面组件
+2017-09-12 10:15:41,094 - CaseLogin - INFO - 验证页面元素
+2017-09-12 10:16:00,625 - CaseLogin - INFO - 空密码提交验证
+2017-09-12 10:16:04,801 - CaseLogin - INFO - 调用用户名输入组件，输入错误用户:test_error
+2017-09-12 10:16:07,072 - CaseLogin - INFO - 调用密码输入组件，输入错误用户密码:test_error
+2017-09-12 10:16:09,312 - CaseLogin - INFO - 调用点击登录按钮组件
+2017-09-12 10:16:12,444 - CaseLogin - INFO - 调用用户名输入组件:yumi
+2017-09-12 10:16:14,585 - CaseLogin - INFO - 调用密码输入组件:111111
+2017-09-12 10:16:16,782 - CaseLogin - INFO - 调用点击登录按钮组件,进入main界面
+2017-09-12 10:16:23,898 - CaseLogin - INFO - 登录模块测试完毕
+2017-09-12 10:16:26,911 - CaseMain - INFO - ----------********登录主页测试********----------
+2017-09-12 10:16:26,911 - CaseMain - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-12 10:16:26,911 - CaseMain - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-12 10:16:29,292 - CaseMain - INFO - 调用用户名输入组件:yumi
+2017-09-12 10:16:31,558 - CaseMain - INFO - 调用密码输入组件:111111
+2017-09-12 10:16:34,773 - CaseMain - INFO - 调用点击登录按钮组件,进入main界面
+2017-09-12 10:16:36,967 - CaseMain - INFO - 点击OK按钮，取消CALL CENTER工具提示框
+2017-09-12 10:16:38,145 - CaseMain - INFO - 显示菜单模块栏
+2017-09-12 10:17:07,128 - CaseMain - INFO - 遍历打开功能模块成功
+2017-09-12 10:17:09,825 - CaseOrder - INFO - ----------********新订单模块下单测试********----------
+2017-09-12 10:17:09,826 - CaseOrder - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-12 10:17:09,826 - CaseOrder - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-12 10:17:09,826 - CaseOrder - INFO - 调用用户名、密码输入组件:yumi、111111
+2017-09-12 10:17:14,039 - CaseOrder - INFO - 已获取dict_newrder属性:[{u'Rest_name': u'\u84dd\u86d9', u'TelPhone_Num': u'1231231', u'Branch': u'\u671b\u4eac\u4e1c\u5e97', u'TelPhone_new': u'123456', u'Item': u'\u84dd\u86d9\u7ecf\u5178\u6c49\u5821'}]
+2017-09-12 10:17:14,039 - CaseOrder - INFO - 执行JS显示菜单功能栏
+2017-09-12 10:17:14,046 - CaseOrder - INFO - 打开新订单功能模块
+2017-09-12 10:17:16,496 - CaseOrder - INFO - 执行JS隐藏菜单功能栏
+2017-09-12 10:17:16,503 - CaseOrder - INFO - 进入新订单模块，切入iframe内
+2017-09-12 10:17:19,617 - CaseOrder - INFO - 输入订单业务用户电话:1231231
+2017-09-12 10:17:21,894 - CaseOrder - INFO - 点击搜索按钮，如果之前输入的电话不存在，则输入新电话123456
+2017-09-12 10:17:56,911 - CaseOrder - INFO - 输入餐厅名称:蓝蛙
+2017-09-12 10:18:01,255 - CaseOrder - INFO - 选择餐厅，展开餐厅分组
+2017-09-12 10:18:25,555 - CaseOrderList - INFO - ----------********登录订单列表模块********----------
+2017-09-12 10:18:25,555 - CaseOrderList - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-12 10:18:25,555 - CaseOrderList - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-12 10:18:25,555 - CaseOrderList - INFO - 调用用户名、密码输入组件:yumi、111111
+2017-09-12 10:18:29,328 - CaseOrderList - INFO - 显示功能模块菜单栏
+2017-09-12 10:18:29,338 - CaseOrderList - INFO - 打开OrderList功能模块
+2017-09-12 10:18:32,913 - CaseOrderList - INFO - 隐藏功能模块菜单栏
+2017-09-12 10:18:32,940 - CaseOrderList - INFO - 进入Iframe，进入Inner HTML
+2017-09-12 10:18:36,058 - CaseOrderList - INFO - 选择查询起止时间段
+2017-09-12 10:19:10,122 - CaseOrderList - INFO - 查询当日订单总量{'Un-finished Complain Order': u'0', 'Locked Number': u'0', 'Delay Order': u'0', 'Dispath Number': u'0', 'Need send to Restaurant Number': u'0', 'My Order': u'0'}
+2017-09-12 10:19:55,710 - CaseOrderList - INFO - App Order 订单总量：[u'Number : 1', u'Rest. Total : 1', u'Order Total : 97']
+2017-09-12 10:19:55,710 - CaseOrderList - INFO - Un-Approved Web Order 订单总量：[u'Number : 1', u'Rest. Total : 1', u'Order Total : 97']
+2017-09-12 10:19:55,711 - CaseOrderList - INFO - Phone Order 订单总量：[u'Number : ', u'Rest. Total : ', u'Order Total : ']
+2017-09-12 10:19:55,711 - CaseOrderList - INFO - Web Order 订单总量：[u'Number : ', u'Rest. Total : ', u'Order Total : ']
+2017-09-12 10:19:55,711 - CaseOrderList - INFO - 操作选择框类型，输入错误的订单号
+2017-09-12 10:20:01,733 - CaseOrderList - INFO - 点击GO查询按钮，查询订单数据
+2017-09-12 10:20:02,967 - CaseOrderList - INFO - 点击Query (Not Finished)按钮
+2017-09-12 10:20:50,122 - CaseCallCenterQC - INFO - ----------********登录 Call Center QC 模块********----------
+2017-09-12 10:20:50,124 - CaseCallCenterQC - INFO - 已获取dict_env属性:[{u'URL': u'http://192.168.98.22:8013/sherpa-dms3/login', u'PWD': u'111111', u'USER': u'yumi', u'TITLE': u"Sherpa's Login"}]
+2017-09-12 10:20:50,124 - CaseCallCenterQC - INFO - 启动谷歌浏览器
+ 输入URL:http://192.168.98.22:8013/sherpa-dms3/login
+判断TITLE:Sherpa's Login
+2017-09-12 10:20:50,125 - CaseCallCenterQC - INFO - 调用用户名、密码输入组件:yumi、111111
+2017-09-12 10:20:53,858 - CaseCallCenterQC - INFO - 显示功能模块菜单栏
+2017-09-12 10:20:53,868 - CaseCallCenterQC - INFO - 打开Call Center QC 功能模块
+2017-09-12 10:20:56,690 - CaseCallCenterQC - INFO - 隐藏功能模块菜单栏
+2017-09-12 10:20:56,697 - CaseCallCenterQC - INFO - 进入Iframe，进入Inner HTML
+2017-09-12 10:21:31,260 - CaseCallCenterQC - INFO - 获取数据报表字段名称[u'CSR ', u'Delay Order ', u'\u672asend to Restaurant ', u'\u672a\u89e3\u9501\u8ba2\u5355 ', u'\u672a\u5199\u6295\u8bc9\u7684\u8ba2\u5355 ', u'\u9700\u8ddf\u8fdb\u7684\u672a\u6536\u6b3e ']
+2017-09-12 10:21:31,322 - CaseCallCenterQC - INFO - 获取需跟进订单总量页面数据:
+没
+------------
+2017-09-12 10:21:31,322 - CaseCallCenterQC - INFO - 获取需跟进订单总量页面数据:
+有
+------------
+2017-09-12 10:21:31,322 - CaseCallCenterQC - INFO - 获取需跟进订单总量页面数据:
+匹
+------------
+2017-09-12 10:21:31,322 - CaseCallCenterQC - INFO - 获取需跟进订单总量页面数据:
+配
+------------
+2017-09-12 10:21:31,323 - CaseCallCenterQC - INFO - 获取需跟进订单总量页面数据:
+数
+------------
+2017-09-12 10:21:31,323 - CaseCallCenterQC - INFO - 获取需跟进订单总量页面数据:
+据
+------------
+2017-09-12 10:22:07,039 - CaseCallCenterQC - INFO - 获取处理订单总表数据:没有匹配数据
+2017-09-12 10:22:42,697 - CaseCallCenterQC - INFO - 获取PM表数据:没有匹配数据
