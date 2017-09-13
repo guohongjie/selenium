@@ -49,16 +49,16 @@ class AutoSendMail(object):
 if __name__ == '__main__':
     subject = 'DMS3_WEB_UI自动化测试'
     # file = os.path.dirname(os.path.dirname(os.path.realpath(__file__))) + '/report/20170719-095357.html'
-    file = r"E:\python_web\mail\report\wc.html"
+    file = r""
     fn = r'WebAutoTest.html'
-    MAIL_DRIVER = 'smtp'
-    MAIL_HOST = 'smtp.263.net'
-    MAIL_PORT = '25'
-    MAIL_USERNAME = r'qa-report@daojia.com.cn'
-    MAIL_PASSWORD = 'Djia2017'
-    MAIL_FROM_ADDRESS = r'qa-report@daojia.com.cn'
-    zipf = r'E:\python_web\mail\result.zip'
-    zipn = r'result.zip'
+    MAIL_DRIVER = ''
+    MAIL_HOST = 
+    MAIL_PORT = ''
+    MAIL_USERNAME = r''
+    MAIL_PASSWORD = ''
+    MAIL_FROM_ADDRESS = r''
+    zipf = 
+    zipn = 
     file_object = open(file)
     try:
         content = file_object.read()
