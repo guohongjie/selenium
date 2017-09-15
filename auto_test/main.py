@@ -12,7 +12,6 @@ from auto_test.module import module_orderlist
 from auto_test.module import module_callcenterQC
 from auto_test.drivers.zip_file import addfile
 from bs4 import BeautifulSoup
-
 class Jiance(object):
     def __init__(self):
         self.testsuite = unittest.TestSuite()
