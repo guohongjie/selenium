@@ -62,3 +62,4 @@ if __name__ == "__main__":
     addfile(zipn,zipfile)
     mail = AutoSendMail(MAIL_USERNAME,MAIL_PASSWORD,MAIL_FROM_ADDRESS,file,fn,zipn,'result.zip')
     mail(MAIL_HOST, MAIL_PORT, html)
+    print 'ok'
